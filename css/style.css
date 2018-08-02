@@ -1,0 +1,54 @@
+.hero {
+  background-color: pink;
+}
+
+.hero-content {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 10rem;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+
+/* Desktops and laptops ----------- */
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {
+  .hero-content {
+    font-size: 1rem;
+  }
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+  .hero-content {
+    font-size: 2rem;
+  }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+  .hero-content {
+    font-size: 5rem;
+  }
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+  .hero-content {
+    font-size: 7rem;
+  }
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+  .hero-content {
+    font-size: 9rem;
+  }
+}
